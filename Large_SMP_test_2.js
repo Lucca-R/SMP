@@ -158,12 +158,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			//'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			// ABOVE IS OLD INSTRUCTIONS FOR EXAMPLE BLOCK, BELOW ARE NEW'<color="000000">[Round 1 of nBlocks]</p></div>',
-			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			exampleBlockInst: '<div><p style="font-size:18px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/><br/><br/>' + 
 'In this task, you\'ll see Chinese symbols flashed on screen. We know you probably don\'t understand Chinese, but we are interested in how well you can tell by intuition whether the symbols represent peaceful or violent concepts.<br/><br/>' + 
 'Each symbol will be briefly preceded by an image. These images are part of the procedure but NOT relevant to your task. Try your best not to let these images influence your judgments about the Chinese symbols.<br/><br/>' + 
 'Your job is simple: Trust your intuition about each Chinese symbol.<br/><br/>' + 
-'- Press the <b>leftKey</b> if you feel the symbol means something peaceful<br/>' + 
-'- Press the <b>rightKey</b> if you feel the symbol means something violent<br/><br/>' + 
+'- Press the <b>leftKey</b> if you feel the symbol means something violent<br/>' + 
+'- Press the <b>rightKey</b> if you feel the symbol means something peaceful<br/><br/>' + 
 'Respond based on your first impression of each symbol. There are no right or wrong answers - we\'re interested in your intuitive reactions.<br/><br/></p>'  + 
 '<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
