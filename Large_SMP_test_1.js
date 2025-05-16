@@ -149,15 +149,26 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			exampleBlock_targetDuration : 300, 
 			
 			//Instructions text for the 2-responses version.
+			//exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			//'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
+			//'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
+			//'The items appear and disappear quickly.  ' + 
+			//'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
+			//'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			//'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
+			//'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			// ABOVE IS OLD INSTRUCTIONS FOR EXAMPLE BLOCK, BELOW ARE NEW'<color="000000">[Round 1 of nBlocks]</p></div>',
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
-			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
-			'The items appear and disappear quickly.  ' + 
-			'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="000000">[Round 1 of nBlocks]</p></div>',
+'In this task, you\'ll see Chinese symbols flashed on screen. We know you probably don\'t understand Chinese, but we are interested in how well you can tell by intuition whether the symbols represent peaceful or violent concepts.<br/><br/>' + 
+'Each symbol will be briefly preceded by an image. These images are part of the procedure but NOT relevant to your task. Try your best not to let these images influence your judgments about the Chinese symbols.<br/><br/>' + 
+'Your job is simple: Trust your intuition about each Chinese symbol.<br/><br/>' + 
+'- Press the <b>leftKey</b> if you feel the symbol means something peaceful<br/>' + 
+'- Press the <b>rightKey</b> if you feel the symbol means something violent<br/><br/>' + 
+'Respond based on your first impression of each symbol. There are no right or wrong answers - we\'re interested in your intuitive reactions.<br/><br/></p>'  + 
+'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
+'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+'<color="000000">[Round 1 of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			"See how fast it is? Don't worry if you miss some. " + 
 			'Go with your gut feelings.<br/><br/>' + 
